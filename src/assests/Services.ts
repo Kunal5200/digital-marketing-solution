@@ -19,4 +19,22 @@ export const SERVICES_DATA: SERVICE_BOX_PROPS[] = [
     description:
       "Maximize your ROI with targeted PPC campaigns designed to attract the right audience customers.",
   },
+  {
+    serial: 4,
+    heading: "Social Media Marketing",
+    description:
+      "Build a strong social media presence to connect with your audience, awareness, engagement.",
+  },
+  {
+    serial: 5,
+    heading: "Website Design & Development",
+    description:
+      "Create a user-friendly, responsive website that not only looks great but also performs exceptionally.",
+  },
+  {
+    serial: 6,
+    heading: "Analytics & Reporting",
+    description:
+      "Gain insights into your digital performance detailed reporting to inform your strategy & reporting.",
+  },
 ];

@@ -14,6 +14,8 @@ const ServicesBox = ({ serial, heading, description }: SERVICE_BOX_PROPS) => {
           backgroundColor: COLORS.WHITE,
           ":hover": {
             transform: "translateY(-10px)",
+            backgroundColor: COLORS.WHITE,
+
             ".number_box": {
               backgroundColor: COLORS.PRIMARY,
             },
