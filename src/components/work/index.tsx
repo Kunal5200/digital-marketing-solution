@@ -4,6 +4,7 @@ import HeadingStrip from "../HeadingStrip";
 import headingStrip from "@/icons/heading-black-img.svg";
 import { COLORS } from "@/utils/enum";
 import { ROBOTO } from "@/utils/fonts";
+import WorkCard from "./workCard";
 const WorkProcess = () => {
   return (
     <div>
@@ -44,6 +45,9 @@ const WorkProcess = () => {
             Get in touch
           </Button>
         </Stack>
+        <Box sx={{ mt: 2 }}>
+          <WorkCard />
+        </Box>
       </Container>
     </div>
   );
