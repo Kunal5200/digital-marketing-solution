@@ -1,4 +1,4 @@
-import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import { Box, Button, Container, Grid2, IconButton, Stack, Typography } from "@mui/material";
 import React from "react";
 import HeadingStrip from "../HeadingStrip";
 import headingStrip from "@/icons/heading-black-img.svg";
@@ -46,6 +46,13 @@ const WorkProcess = () => {
           </Button>
         </Stack>
         <Box sx={{ mt: 2 }}>
+          <Grid2 container>
+            <Grid2 size={1}>
+              <IconButton>
+                
+              </IconButton>
+            </Grid2>
+          </Grid2>
           <WorkCard />
         </Box>
       </Container>
